@@ -1,0 +1,15 @@
+# Virtual Environment
+.venv/
+venv/
+env/
+
+# Environment Variables (API Keys)
+.env
+
+# SQLite & Local Vector Storage
+*.db
+chroma_db/
+
+# Python Caches
+__pycache__/
+*.pyc

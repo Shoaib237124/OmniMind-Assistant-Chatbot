@@ -1,0 +1,28 @@
+# --- Core Framework & Web Server ---
+fastapi>=0.110.0
+uvicorn>=0.28.0
+pydantic>=2.6.0
+python-multipart>=0.0.9
+
+# --- Frontend UI & Networking ---
+streamlit>=1.32.0
+requests>=2.31.0
+
+# --- LangGraph & LangChain Orchestration ---
+langchain-core>=0.3.0
+langchain-community>=0.3.0
+langchain-groq>=0.2.0
+langgraph>=0.2.0
+
+# --- RAG & Vector Database ---
+chromadb>=0.5.0
+langchain-chroma>=0.1.4
+fastembed>=0.3.0
+pypdf>=4.1.0
+
+# --- Persistence & Async Database ---
+aiosqlite>=0.20.0
+langgraph-checkpoint-sqlite>=2.0.0
+
+# --- Environment & Configuration ---
+python-dotenv>=1.0.1
